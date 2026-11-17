@@ -1,0 +1,112 @@
+{
+  "seed": 2026,
+  "period": {
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "cutoffStart": "2026-11-01",
+    "cutoffEnd": "2026-11-03"
+  },
+  "anomalies": {
+    "TIMING_DIFFERENCE": {
+      "tx_ids": [
+        "TX_2001",
+        "TX_2002",
+        "TX_2003"
+      ],
+      "settlement_ids": [
+        "STL_7001",
+        "STL_7002",
+        "STL_7003"
+      ],
+      "expected_timing_total": 1715.74
+    },
+    "ROUNDING_DRIFT": {
+      "tx_ids": [
+        "TX_3001",
+        "TX_3002",
+        "TX_3003",
+        "TX_3004",
+        "TX_3005",
+        "TX_3006",
+        "TX_3007",
+        "TX_3008",
+        "TX_3009",
+        "TX_3010",
+        "TX_3011",
+        "TX_3012",
+        "TX_3013",
+        "TX_3014",
+        "TX_3015",
+        "TX_3016",
+        "TX_3017",
+        "TX_3018",
+        "TX_3019",
+        "TX_3020",
+        "TX_3021",
+        "TX_3022",
+        "TX_3023",
+        "TX_3024",
+        "TX_3025"
+      ],
+      "settlement_ids": [
+        "STL_1034",
+        "STL_1035",
+        "STL_1036",
+        "STL_1039",
+        "STL_1040",
+        "STL_1041",
+        "STL_1042",
+        "STL_1044",
+        "STL_1045",
+        "STL_1046",
+        "STL_1047",
+        "STL_1048",
+        "STL_1049",
+        "STL_1053",
+        "STL_1054",
+        "STL_1055",
+        "STL_1056",
+        "STL_1058",
+        "STL_1059",
+        "STL_1060",
+        "STL_1061",
+        "STL_1062",
+        "STL_1063",
+        "STL_1069",
+        "STL_1070"
+      ],
+      "platform_total": 250.1,
+      "bank_total": 250,
+      "expected_aggregate_drift": -0.1,
+      "expected_row_level_drift": 0
+    },
+    "DUPLICATE_SETTLEMENT": {
+      "tx_ids": [
+        "TX_4001",
+        "TX_4002"
+      ],
+      "settlement_ids": [
+        "STL_9042A",
+        "STL_9042B",
+        "STL_9077A",
+        "STL_9077B"
+      ],
+      "duplicate_settlement_ids": [
+        "STL_9042B",
+        "STL_9077B"
+      ],
+      "expected_duplicate_total": 304.15
+    },
+    "ORPHAN_REFUND": {
+      "tx_refs": [
+        "TX_9998",
+        "TX_9999"
+      ],
+      "settlement_ids": [
+        "STL_8801",
+        "STL_8802"
+      ],
+      "expected_orphan_total": -172.49
+    }
+  }
+}
